@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #ffffff;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 130px;
+    
+}
+
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+.list{
+    text-align: end;
+}
+
+.links:hover{
+    color: #0317fc;
+}
+
+.title{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.titleh1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.tspan{
+    color: #dd5f0b;
+}
+
+.download{
+    background-color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position:absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.move{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 30%;
+    transform: translate(-40);
+    transition: bottom 1s, left 2s;
+}
+
+.images:hover #shape{
+    bottom: 70px;
+}
+
+.images:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 13% 8% 0% 8%;
+}
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    font-size: 30px;
+}
+.heading span{
+    color: #dd5f0b;
+    font-size: 20px;
+}
+
+.aboutcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.aboutimage img{
+    width: 80%;
+    border-radius: 1rem;
+}
+.aboutext{
+    font-weight: 400;
+    text-align: justify;
+    font-size: 18px;
+}
+.information{
+    margin: 1rem 0 0 0;
+}
+.infobox{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#skill{
+    margin: 8% 8% 0% 8%;
+}
+
+.skillcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.skillimg img{
+    width: 90%;
+    object-position: center;
+    padding-left: 5rem;
+}
+
+.barcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.barcontainer h3,span{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.htmlbar{
+    background-color: orange;
+    width: 95%;
+}
+.cssbar{
+    background-color: orange;
+    width: 88%;
+}
+.reactbar{
+    background-color: orange;
+    width: 85%;
+}
+.jsbar{
+    background-color: orange;
+    width: 89%;
+}
+.tspan{
+    color: #dd5f0b;
+    font-size: 50px;
+}
+.iconset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.icon i{
+    font-size: 30px;
+    color: #000000;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,orange,white,green);
+}
+.icon:hover i{
+    color: rgb(38, 162, 235);
+    animation: shake 1s;
+}
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }        
+}
+footer p{
+    text-align: center;
+}
+footer{
+    margin: 3rem 0px;
+}
+.uparrow{
+    float: right;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right,orange,white,green);
+    margin: 0px 10px 50px 0px;
+}
+.uparrow:hover i{
+    color: #2093ff;
+}
